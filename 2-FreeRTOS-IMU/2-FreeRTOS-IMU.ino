@@ -73,7 +73,7 @@ void setup() {
   // Creamos las tareas FreeRTOS, les asignamos la misma prioridad (1) y la misma memoria en stack (128 palabras);
   //xTaskCreate(blinkLED,"Tarea1",1000,NULL,1,NULL);
   xTaskCreate(getData,"Tarea2",1000,NULL,1,NULL);
-  xTaskCreate(sendData,"Tarea3",10000,NULL,1,NULL);
+  xTaskCreate(sendData,"Tarea3",1000,NULL,1,NULL);
   
 }
 
