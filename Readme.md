@@ -10,5 +10,6 @@
 ### Tutoriales/ Documentación principalmente utilizados:
 
 * [ESP32_FreeRtos](https://github.com/uagaviria/ESP32_FreeRtos) (link dado en el guión).
+* Documentación de la orden [xTaskCreate](https://www.freertos.org/a00125.html) de la web de FreeRTOS.
 * [Arduino FreeRTOS Tutorial 1 - Creating a FreeRTOS task to Blink LED in Arduino Uno](https://circuitdigest.com/microcontroller-projects/arduino-freertos-tutorial1-creating-freertos-task-to-blink-led-in-arduino-uno) (aunque hay diferencias al no utilizar ahí el IDE de Arduino)
 * [Foro del ESP32](https://esp32.com/viewtopic.php?t=8614) en el que explican el fallo debido a falta de stack en una tarea.
